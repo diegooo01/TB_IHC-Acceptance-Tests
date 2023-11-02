@@ -9,6 +9,7 @@ Feature: US14 - Visualización del Navegador Principal
         Then el navegador principal incluirá las siguientes opciones: "Inicio", "¿Quiénes somos?", "Características", "Contáctanos" y "Obtener Aplicación".
 
 
+
 Feature: US15 - Obtener la aplicación rápidamente
     Como visitante interesado en la aplicación
     Quiero encontrar un botón de descarga claramente visible en la landing page
@@ -27,6 +28,7 @@ Feature: US15 - Obtener la aplicación rápidamente
         Then se redirige al visitante a la página de descarga de la aplicación en App Store.
 
 
+
 Feature: US16 - Descubrir las características clave de la aplicación
     Como visitante interesado en la aplicación
     Quiero poder conocer las características clave de FloraCare
@@ -41,6 +43,7 @@ Feature: US16 - Descubrir las características clave de la aplicación
         Given el visitante se encuentra en el apartado de Las plantas más buscadas
         When el visitante da click en una de las plantas "Culantrillo", "Palmera de Salón", "Cactus", "Cinta o Malamadre", "Orquídeas"
         Then la landing page muestra más información específica sobre la planta seleccionada.
+
 
 
 Feature: US17 - Encontrar información de contacto
