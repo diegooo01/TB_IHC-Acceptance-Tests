@@ -9,7 +9,6 @@ Feature: US14 - Visualización del Navegador Principal
         Then el navegador principal incluirá las siguientes opciones: "Inicio", "¿Quiénes somos?", "Características", "Contáctanos" y "Obtener Aplicación".
 
 
-
 Feature: US15 - Obtener la aplicación rápidamente
     Como visitante interesado en la aplicación
     Quiero encontrar un botón de descarga claramente visible en la landing page
@@ -28,7 +27,6 @@ Feature: US15 - Obtener la aplicación rápidamente
         Then se redirige al visitante a la página de descarga de la aplicación en App Store.
 
 
-
 Feature: US16 - Descubrir las características clave de la aplicación
     Como visitante interesado en la aplicación
     Quiero poder conocer las características clave de FloraCare
@@ -45,7 +43,6 @@ Feature: US16 - Descubrir las características clave de la aplicación
         Then la landing page muestra más información específica sobre la planta seleccionada.
 
 
-
 Feature: US17 - Encontrar información de contacto
     Como visitante interesado en la aplicación
     Quiero encontrar información de contacto
@@ -56,7 +53,6 @@ Feature: US17 - Encontrar información de contacto
         Given el visitante se encuentra en la parte inferior de la landing page
         When el visitante se acerque a la sección "Contacto"
         Then el visitante podrá observar los métodos de contacto de la aplicación: "+51 970 575 628", "www.floracare.com", "floracare@floracompany.pe".
-
 
 
 Feature: US18 - Acceso a la Historia de la Compañía
